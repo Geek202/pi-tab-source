@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~/Documents/pi-tab
 #pwd
-python3 /home/pi/Documents/pi-tab/install.py
+python3 /home/pi/pi-tab-source/install.py
 if [ ! -d "~/.pi-tab" ]; then
  mkdir ~/.pi-tab
 fi

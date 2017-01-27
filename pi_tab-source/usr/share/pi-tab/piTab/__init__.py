@@ -29,6 +29,10 @@ import glob
 import logging
 import getpass
 
+homedir = glob.glob('/'+getpas.getuser()+'/.*')
+
+if not '.pi-tab' in homedir: os.system('mkdir /home/pi/.pi-tab && mkdir /home/pi/.pi-tab/logs')
+
 logging.basicConfig(filename="/home/"+getpass.getuser()+"/.pi-tab/logs/" + datetime.now().isoformat() + ".log",
                     level=logging.INFO,format="%(asctime)s : %(message)s")
 
