@@ -27,7 +27,7 @@ from subprocess import call
 from os import _exit
 
 def pi_splat():
-	call(["python","/usr/share/pi-tab/games/pi-splat/main.py"])
+	call(["python","/usr/share/pi-tab/piTab/games/pi-splat/main.py"])
 def exitGames():
 	_exit(0)
 
