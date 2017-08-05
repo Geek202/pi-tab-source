@@ -25,15 +25,13 @@
 
 from tkinter import *
 from tkinter import filedialog
-import os, glob
-import shutil
-files = glob.glob(os.path.join(filedialog.askdirectory(title='Import folder'),'*.*'))
+import os
+
+files = filedialog.askdirectory(title='Import folder')
 dest = filedialog.askdirectory(title='Destination Folder')
 
 def go():
-	for file_name in files:
-		if (os.path.isfile(file_name)):
-			shutil.copy(file_name, dest)
+	os.system("cp -r '{0}' '{1}'".format(files, dest))
 	os._exit(0)
 
 root = Tk()

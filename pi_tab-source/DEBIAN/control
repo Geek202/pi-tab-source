@@ -1,8 +1,8 @@
 Package: PiTab
 Version: 0.0.9
 Architecture: armhf
-Maintainer: Tom Bryan <theedbryanfamily@gmail.com>
-Depends: python, python-gtk2, python3
+Maintainer: Tom Bryan <tgbryan39@outlook.com>
+Depends: python, python-gtk2, python3, mplayer2
 Installed-Size: 7700
 Homepage: http://example.com
 Description: Pi Tab GUI

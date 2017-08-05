@@ -52,7 +52,7 @@ def main():
 	saveButton.pack(side='right')
 	openButton = Button(root, text='Open',command=loadFile)
 	openButton.pack(side='right')
-	fileEdit = scrolledtext.__init__(master=root,name='Editor')
+	fileEdit = scrolledtext(root,name='Editor')
 	fileEdit.pack(side='bottom')
 	root.mainloop()
 

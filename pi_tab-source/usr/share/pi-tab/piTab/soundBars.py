@@ -29,8 +29,8 @@ def main():
 	c = Canvas(root,width=500,height=500)
 	c.pack()
 	line1 = c.create_polygon(0,500,50,500,50,250,0,250,fill="red")
-	line2 = c.create_polygon(50,500,100,500,100,250,100,250,fill="blue")
-	line3 = c.create_polygon(100,500,150,500,150,250,150,250,fill="green")
+	line2 = c.create_polygon(50,500,100,500,100,250,100,250,50,250,fill="blue")
+	line3 = c.create_polygon(100,500,150,500,150,250,150,250,100,250,fill="green")
 	root.update()
 	root.mainloop()
 

@@ -29,7 +29,7 @@ import glob
 import logging
 import getpass
 
-homedir = glob.glob('/'+getpas.getuser()+'/.*')
+homedir = glob.glob('/'+getpass.getuser()+'/.*')
 
 if not '.pi-tab' in homedir: os.system('mkdir /home/pi/.pi-tab && mkdir /home/pi/.pi-tab/logs')
 
