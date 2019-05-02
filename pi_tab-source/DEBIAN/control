@@ -4,6 +4,6 @@ Architecture: armhf
 Maintainer: Tom Bryan <tgbryan39@outlook.com>
 Depends: python, python-gtk2, python3, mplayer2
 Installed-Size: 7700
-Homepage: http://example.com
+Homepage: https://github.com/Geek202
 Description: Pi Tab GUI
  This package will install Pi Tab and will change the desktop background to a custom design.
